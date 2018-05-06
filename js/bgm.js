@@ -3,7 +3,7 @@ window.onload = onresize = function(){
     var now = d.getHours()
 	if(now < 18 & now > 7){
 		$(".light").attr("class","light");
-	}else if(now >18){
+	}else{
 		$(".light").attr("class","night");
 	}
 
