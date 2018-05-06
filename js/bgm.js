@@ -1,4 +1,4 @@
-window.onload =  function(){ 
+window.onload = onresize = function(){ 
     var d = new Date()
     var now = d.getHours()
 	if(now < 18 & now > 7){
