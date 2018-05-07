@@ -9,7 +9,7 @@ to {opacity:1;}
 .titlelogo {text-align: center;}
 .bgm {position: fixed;top:2em;right: 0;padding: 1em 3em 1em 1em;border-radius: 1em 0 0 1em;}
 .bgm img {cursor: pointer}
-.botmenu {position: fixed;left: 0;border-radius:0 1em 1em 0;}
+.botmenu {position: fixed;left: 0;border-radius:0 1em 1em 0;z-index:999}
 .light .botmenu, .light .bgm {background: #181925;}
 .night .botmenu, .night .bgm {background: #831a1f;}
 .mainfoct {position: relative;}
