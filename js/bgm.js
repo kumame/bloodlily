@@ -1,17 +1,3 @@
-     var audio = document.getElementById('bgm');
-         audio.play();
-         
-function play() {
-    var audio = document.getElementById('bgm');
-    if (audio.paused) {
-        audio.play();
-        document.getElementById('bgmImg').src="elment/play.svg";
-    }else{
-        audio.pause();
-        document.getElementById('bgmImg').src="elment/stop.svg";
-    }
-}
-
 window.onload = function(){ 
     var d = new Date()
     var now = d.getHours()
@@ -29,4 +15,18 @@ if(windoww >= 1170){
 }else{
     document.getElementById("lines").innerHTML = lines2;
 }
+}
+
+     var audio = document.getElementById('bgm');
+         audio.play();
+         
+function play() {
+    var audio = document.getElementById('bgm');
+    if (audio.paused) {
+        audio.play();
+        document.getElementById('bgmImg').src="elment/play.svg";
+    }else{
+        audio.pause();
+        document.getElementById('bgmImg').src="elment/stop.svg";
+    }
 }
